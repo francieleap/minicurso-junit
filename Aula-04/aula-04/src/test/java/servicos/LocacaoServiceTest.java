@@ -29,7 +29,7 @@ public class LocacaoServiceTest {
 		
 		//Verificação
 		
-		Assert.assertTrue(locacao.getValor() == 4);
+		Assert.assertTrue(locacao.getValor() == 5);
 		Assert.assertTrue(DataUtils.isMesmaData(locacao.getDataLocacao(), new Date()));
 		Assert.assertTrue(DataUtils.isMesmaData(locacao.getDataRetorno(), DataUtils.adicionarDias(new Date(), 1)));
 		
